@@ -7,7 +7,7 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #e6e6e6;
   color: #333;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@ body {
 
 /* Cabeçalho */
 header {
-  background-color: #ffb6c1; /* Rosa claro e suave */
+  background-color: #ff69b4; /* Rosa mais escuro */
   color: white;
   padding: 1rem;
   text-align: center;
@@ -29,6 +29,12 @@ header {
 header h1 {
   margin: 0;
   font-size: 2rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar {
@@ -56,7 +62,7 @@ header h1 {
 .navbar a:hover,
 .navbar a.active {
   background-color: white;
-  color: #ffb6c1; /* Rosa claro */
+  color: #ff69b4; /* Rosa mais escuro */
 }
 
 .right-menu {
@@ -67,7 +73,7 @@ header h1 {
 
 #viewCartButton {
   background-color: white;
-  color: #ffb6c1; /* Rosa claro */
+  color: #ff69b4; /* Rosa mais escuro */
   border: 1px solid white;
   padding: 0.5rem 1rem;
   cursor: pointer;
@@ -76,7 +82,7 @@ header h1 {
 }
 
 #viewCartButton:hover {
-  background-color: #ffb6c1; /* Rosa claro */
+  background-color: #ff69b4; /* Rosa mais escuro */
   color: white;
   border: 1px solid white;
 }
@@ -118,7 +124,7 @@ header h1 {
 .product h2 {
   font-size: 1.5rem;
   margin: 0.5rem 0;
-  color: #ffb6c1; /* Rosa claro */
+  color: #ff69b4; /* Rosa mais escuro */
 }
 
 .product p {
@@ -127,7 +133,7 @@ header h1 {
 }
 
 .product button {
-  background-color: #ffb6c1; /* Rosa claro */
+  background-color: #ff69b4; /* Rosa mais escuro */
   color: white;
   border: none;
   padding: 0.5rem 1rem;
@@ -168,7 +174,7 @@ footer {
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
-  max-width: 400px;
+  max-width: 300px; /* Reduzir o tamanho do modal */
   border-radius: 10px;
   text-align: center;
 }
@@ -217,7 +223,7 @@ footer {
       position: absolute;
       top: 100%;
       left: 0;
-      background-color: #ffb6c1; /* Rosa claro */
+      background-color: #ff69b4; /* Rosa mais escuro */
       width: 100%;
       transition: max-height 0.3s ease-in-out;
       max-height: 0;
@@ -225,6 +231,7 @@ footer {
   }
 
   .navbar.active {
+      display: flex;
       max-height: 300px; /* Altura máxima para o menu expandido */
   }
 
@@ -248,10 +255,15 @@ footer {
   .navbar {
       display: flex;
       justify-content: center;
+      flex-grow: 1;
   }
 
   .burger-menu {
       display: none;
+  }
+
+  .right-menu {
+      margin-left: auto; /* Alinha o menu à direita */
   }
 
   .navbar a {
@@ -265,6 +277,6 @@ footer {
   .navbar a:hover,
   .navbar a.active {
       background-color: white;
-      color: #ffb6c1; /* Rosa claro */
+      color: #ff69b4; /* Rosa mais escuro */
   }
 }
