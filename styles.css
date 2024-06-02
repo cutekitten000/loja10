@@ -4,10 +4,10 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Roboto', sans-serif; /* Alterado para uma fonte mais moderna */
   margin: 0;
   padding: 0;
-  background-color: #e6e6e6;
+  background-color: #f9f9f9; /* Alterado para um fundo mais claro */
   color: #333;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@ body {
 
 /* Cabeçalho */
 header {
-  background-color: #ff69b4; /* Rosa mais escuro */
+  background-color: #ffb6c1; /* Alterado para um rosa bebê */
   color: white;
   padding: 1rem;
   text-align: center;
@@ -63,7 +63,7 @@ header nav {
 .navbar a:hover,
 .navbar a.active {
   background-color: white;
-  color: #ff69b4; /* Rosa mais escuro */
+  color: #ffb6c1; /* Alterado para rosa bebê */
 }
 
 .right-menu {
@@ -75,7 +75,7 @@ header nav {
 
 #viewCartButton {
   background-color: white;
-  color: #ff69b4; /* Rosa mais escuro */
+  color: #ffb6c1; /* Alterado para rosa bebê */
   border: 1px solid white;
   padding: 0.5rem 1rem;
   cursor: pointer;
@@ -84,7 +84,7 @@ header nav {
 }
 
 #viewCartButton:hover {
-  background-color: #ff69b4; /* Rosa mais escuro */
+  background-color: #ffb6c1; /* Alterado para rosa bebê */
   color: white;
   border: 1px solid white;
 }
@@ -104,14 +104,11 @@ header nav {
   flex: 1;
 }
 
-
-
 .product {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
   background-color: white;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -125,11 +122,6 @@ header nav {
   transform: translateY(-5px);
 }
 
-/* .product img {
-  width: 100%;
-  height: auto;
-} */
-
 .product img {
     width: 100%;
     height: 150px; /* Define um tamanho fixo para as imagens */
@@ -142,7 +134,6 @@ header nav {
 }
 
 #cartItems {
-  /* border: 1px solid red; */
   width: 100%;
 }
 
@@ -158,25 +149,24 @@ header nav {
   margin-bottom: 1rem;
 }
 
-/* Estilizar botão de remover com ícone de lixeira */
 button.remove-btn {
   background: none;
   border: none;
   cursor: pointer;
-  color: #ff0000; /* Vermelho */
-  font-size: 1rem; /* Tamanho menor para o ícone */
+  color: #ff0000;
+  font-size: 1rem;
   margin-left: 10px;
   vertical-align: middle;
 }
 
 button.remove-btn:hover {
-  color: #cc0000; /* Vermelho escuro */
+  color: #cc0000;
 }
 
 .product h2 {
   font-size: 1.5rem;
   margin: 0.5rem 0;
-  color: #ff69b4; /* Rosa mais escuro */
+  color: #ffb6c1; /* Alterado para rosa bebê */
 }
 
 .product p {
@@ -185,7 +175,7 @@ button.remove-btn:hover {
 }
 
 .product button {
-  background-color: #ff69b4; /* Rosa mais escuro */
+  background-color: #ffb6c1; /* Alterado para rosa bebê */
   color: white;
   border: none;
   padding: 0.5rem 1rem;
@@ -208,11 +198,9 @@ footer {
 }
 
 footer a {
-  /* text-decoration: none; */
   color: white;
 }
 
-/* Modal para imagem */
 #imageModal .modal-content {
   width: 80%;
   max-width: 600px;
@@ -221,19 +209,17 @@ footer a {
   border-radius: 10px;
   overflow: hidden;
   animation: fadeIn 0.3s;
-  background-color: transparent; /* Remove o fundo branco */
+  background-color: transparent;
 }
-
 
 #imageModal img {
   width: 100%;
   height: auto;
   display: block;
   margin: 0;
-  border-radius: 10px; /* Mantém as bordas arredondadas */
+  border-radius: 10px;
 }
 
-/* Modal */
 .modal {
   display: none;
   position: fixed;
@@ -261,40 +247,7 @@ footer a {
 }
 
 .close {
-  color: #fff; /* Alterado para branco para visibilidade no fundo escuro */
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* Keyframes for animations */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes slideIn {
-  from {
-    transform: translateY(-50px);
-  }
-  to {
-    transform: translateY(0);
-  }
-}
-
-.close {
-  color: #aaa;
+  color: #fff;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -328,7 +281,6 @@ footer a {
   background-color: #0056b3;
 }
 
-/* Adiciona regra para dispositivos menores */
 @media (max-width: 768px) {
   .navbar {
       display: none;
@@ -337,7 +289,7 @@ footer a {
       position: absolute;
       top: 100%;
       left: 0;
-      background-color: #ff69b4; /* Rosa mais escuro */
+      background-color: #ffb6c1; /* Alterado para rosa bebê */
       width: 100%;
       transition: max-height 0.3s ease-in-out;
       max-height: 0;
@@ -346,7 +298,7 @@ footer a {
 
   .navbar.active {
       display: flex;
-      max-height: 600px; /* Altura máxima para o menu expandido */
+      max-height: 600px;
   }
 
   .burger-menu {
@@ -364,7 +316,6 @@ footer a {
   }
 }
 
-/* Adiciona regra para dispositivos maiores */
 @media (min-width: 769px) {
   .navbar {
       display: flex;
@@ -377,7 +328,7 @@ footer a {
   }
 
   .right-menu {
-      margin-left: auto; /* Alinha o menu à direita */
+      margin-left: auto;
   }
 
   .navbar a {
@@ -391,6 +342,6 @@ footer a {
   .navbar a:hover,
   .navbar a.active {
       background-color: white;
-      color: #ff69b4; /* Rosa mais escuro */
+      color: #ffb6c1; /* Alterado para rosa bebê */
   }
 }
