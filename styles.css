@@ -202,6 +202,27 @@ footer {
   margin-top: auto;
 }
 
+/* Modal para imagem */
+#imageModal .modal-content {
+  width: 80%;
+  max-width: 600px;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  animation: fadeIn 0.3s;
+  background-color: transparent; /* Remove o fundo branco */
+}
+
+
+#imageModal img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  border-radius: 10px; /* Mantém as bordas arredondadas */
+}
+
 /* Modal */
 .modal {
   display: none;
@@ -212,7 +233,8 @@ footer {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.8);
+  animation: fadeIn 0.3s;
 }
 
 .modal-content {
@@ -221,9 +243,44 @@ footer {
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
-  max-width: 300px; /* Reduzir o tamanho do modal */
+  max-width: 600px;
   border-radius: 10px;
   text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  animation: slideIn 0.3s;
+}
+
+.close {
+  color: #fff; /* Alterado para branco para visibilidade no fundo escuro */
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 
 .close {

@@ -36,6 +36,15 @@ document.addEventListener("DOMContentLoaded", () => {
           `;
           productContainer.appendChild(productDiv);
         });
+
+         // Adiciona evento de clique às imagens para abrir o modal
+         document.querySelectorAll('.product img').forEach(img => {
+          img.addEventListener('click', () => {
+            openImageModal(img.src, img.alt);
+          });
+        });
+
+
       }
 
       function filterProducts(category, products) {
@@ -153,6 +162,29 @@ document.addEventListener("DOMContentLoaded", () => {
       burgerMenu.addEventListener('click', () => {
         navbar.classList.toggle('active');
       });
+
+      // Modal de imagem
+      const imageModal = document.getElementById('imageModal');
+      const modalImage = document.getElementById('modalImage');
+      const closeImageModal = imageModal.querySelector('.close');
+
+      function openImageModal(src, alt) {
+        modalImage.src = src;
+        modalImage.alt = alt;
+        imageModal.style.display = 'block';
+      }
+
+      closeImageModal.onclick = function() {
+        imageModal.style.display = 'none';
+      }
+
+      window.onclick = function(event) {
+        if (event.target == imageModal) {
+          imageModal.style.display = 'none';
+        }
+      }
+
+
     })
     .catch(error => console.error('Erro ao carregar os produtos:', error));
 });
