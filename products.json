@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Serum Café",
+    "description": "Descrição do produto 1",
+    "price": 9.99,
+    "image": "./assets/img/serum/cafe.png",
+    "category": "skincare",
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Serum Frutas",
+    "description": "Descrição do produto 1",
+    "price": 9.99,
+    "image": "./assets/img/serum/frutas.webp",
+    "category": "skincare",
+    "inStock": false
+  }
+]

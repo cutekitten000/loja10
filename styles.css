@@ -44,6 +44,7 @@ header nav {
   justify-content: center;
   gap: 1rem;
   margin: 0;
+  margin-right: 1rem;
 }
 
 .navbar li {
@@ -69,6 +70,7 @@ header nav {
   display: flex;
   align-items: center;
   gap: 1rem;
+  margin-left: 2rem;
 }
 
 #viewCartButton {
@@ -134,6 +136,22 @@ header nav {
     margin: 0.5rem 0;
 }
 
+#cartItems {
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.flex-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: .2rem;
+}
+
+.mt-total {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
 
 
 /* Notificações */
