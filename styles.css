@@ -207,8 +207,12 @@ footer a {
   color: white;
 }
 
+
+
 /* Modal para imagem */
 #imageModal .modal-content {
+
+
   width: 80%;
   max-width: 600px;
   padding: 0;

@@ -239,7 +239,7 @@
     "description": "Perfeita para limpar o contorno da sobrancelha e retirar os pelos em excesso.",
     "price": 3.50,
     "image": "./assets/img/pinça/pinça.jpeg",
-    "category": "acc",
+    "category": "extra",
     "inStock": true
   },
   {
@@ -250,5 +250,23 @@
     "image": "./assets/img/esponja/esponja.jpeg",
     "category": "makeup",
     "inStock": true
+  },
+  {
+    "id": 29,
+    "name": "Polygel profissional",
+    "description": "Produto de fácil aplicação para alongamento de unhas.",
+    "price": 14.99,
+    "image": "./assets/img/polygel/polygel.jpeg",
+    "category": "extra",
+    "inStock": true
+  },
+  {
+    "id": 30,
+    "name": "Faixa de cabelo",
+    "description": "Evita que os produtos encostem na parte superior do cabelo.",
+    "price": 4.99,
+    "image": "./assets/img/faixa/faixa.jpeg",
+    "category": "extra",
+    "inStock": false
   }
 ]
