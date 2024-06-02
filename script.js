@@ -72,23 +72,15 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       function showNotification(message) {
-        const notificationContainer = document.getElementById('notification-container');
-        const notification = document.createElement('div');
-        notification.classList.add('notification');
-        notification.innerText = message;
-        notificationContainer.appendChild(notification);
-
-        setTimeout(() => {
-          notification.classList.add('show');
-        }, 100);
-
-        setTimeout(() => {
-          notification.classList.remove('show');
-          setTimeout(() => {
-            notification.remove();
-          }, 500);
-        }, 3000);
-      }
+        Toastify({
+            text: message,
+            duration: 1000,
+            gravity: "top", // `top` or `bottom`
+            position: "right", // `left`, `center` or `right`
+            backgroundColor: "#333",
+            className: "notification"
+        }).showToast();
+    }
 
       function updateCartModal() {
         const cartItems = document.getElementById('cartItems');
