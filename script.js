@@ -37,14 +37,12 @@ document.addEventListener("DOMContentLoaded", () => {
           productContainer.appendChild(productDiv);
         });
 
-         // Adiciona evento de clique às imagens para abrir o modal
-         document.querySelectorAll('.product img').forEach(img => {
+        // Adiciona evento de clique às imagens para abrir o modal
+        document.querySelectorAll('.product img').forEach(img => {
           img.addEventListener('click', () => {
             openImageModal(img.src, img.alt);
           });
         });
-
-
       }
 
       function filterProducts(category, products) {
@@ -82,14 +80,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
       function showNotification(message) {
         Toastify({
-            text: message,
-            duration: 1000,
-            gravity: "top", // `top` or `bottom`
-            position: "right", // `left`, `center` or `right`
-            backgroundColor: "#333",
-            className: "notification"
+          text: message,
+          duration: 1000,
+          gravity: "top", // `top` or `bottom`
+          position: "right", // `left`, `center` or `right`
+          backgroundColor: "#333",
+          className: "notification"
         }).showToast();
-    }
+      }
 
       function updateCartModal() {
         const cartItems = document.getElementById('cartItems');
@@ -182,9 +180,10 @@ document.addEventListener("DOMContentLoaded", () => {
         if (event.target == imageModal) {
           imageModal.style.display = 'none';
         }
+        if (event.target == modal) {
+          modal.style.display = 'none';
+        }
       }
-
-
     })
     .catch(error => console.error('Erro ao carregar os produtos:', error));
 });
