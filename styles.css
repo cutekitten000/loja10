@@ -107,6 +107,11 @@ header nav {
 
 
 .product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
   background-color: white;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -207,12 +212,8 @@ footer a {
   color: white;
 }
 
-
-
 /* Modal para imagem */
 #imageModal .modal-content {
-
-
   width: 80%;
   max-width: 600px;
   padding: 0;
@@ -248,7 +249,7 @@ footer a {
 
 .modal-content {
   background-color: white;
-  margin: 15% auto;
+  margin: 10% auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;

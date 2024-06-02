@@ -204,7 +204,7 @@
     "price": 9.99,
     "image": "./assets/img/blush/blush3.jpeg",
     "category": "makeup",
-    "inStock": true
+    "inStock": false
   },
   {
     "id": 24,
