@@ -345,7 +345,7 @@ footer a {
 
   .navbar.active {
       display: flex;
-      max-height: 300px; /* Altura máxima para o menu expandido */
+      max-height: 600px; /* Altura máxima para o menu expandido */
   }
 
   .burger-menu {
