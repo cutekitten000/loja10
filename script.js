@@ -140,6 +140,11 @@ document.addEventListener("DOMContentLoaded", () => {
           return;
         }
 
+        if (cart.length === 0) {
+          showNotification('Por favor, adicione pelo menos um item ao carrinho.');
+          return;
+        }
+
         let message = `Pedido de ${customerName}:\n\n`;
         let total = 0;
 

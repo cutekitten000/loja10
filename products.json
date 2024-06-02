@@ -1,20 +1,254 @@
 [
   {
     "id": 1,
-    "name": "Serum Café",
-    "description": "Descrição do produto 1",
-    "price": 9.99,
-    "image": "./assets/img/serum/cafe.png",
-    "category": "skincare",
+    "name": "Balm #Super Poderes",
+    "description": "Deixar o lábios hidratados e com cheiro agradável.",
+    "price": 11.99,
+    "image": "./assets/img/balm/balm.jpeg",
+    "category": "makeup",
     "inStock": true
   },
   {
     "id": 2,
+    "name": "Serum Café",
+    "description": "Tratar problemas específicos da pele, como rugas, manchas e hidratação profunda.",
+    "price": 9.99,
+    "image": "./assets/img/serum/cafe.png",
+    "category": "skincare",
+    "inStock": false
+  },
+  {
+    "id": 3,
     "name": "Serum Frutas",
-    "description": "Descrição do produto 1",
+    "description": "Tratar problemas específicos da pele, como rugas, manchas e hidratação profunda.",
     "price": 9.99,
     "image": "./assets/img/serum/frutas.webp",
     "category": "skincare",
     "inStock": false
+  },
+  {
+    "id": 4,
+    "name": "Sobrancelha Castanho médio - Cor #1",
+    "description": "Maquiar Sobrancelha com ajuda de um pincel para melhor definição.",
+    "price": 9.99,
+    "image": "./assets/img/sobrancelha/1.jpeg",
+    "category": "makeup",
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "Sobrancelha Marrom médio - Cor #2",
+    "description": "Maquiar Sobrancelha com ajuda de um pincel para melhor definição.",
+    "price": 9.99,
+    "image": "./assets/img/sobrancelha/2.jpeg",
+    "category": "makeup",
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "name": "Sobrancelha Preto - Cor #3",
+    "description": "Maquiar Sobrancelha com ajuda de um pincel para melhor definição.",
+    "price": 9.99,
+    "image": "./assets/img/sobrancelha/3.jpeg",
+    "category": "makeup",
+    "inStock": true
+  },
+  {
+    "id": 7,
+    "name": "Base Cream - Cor #1",
+    "description": "Cobrir imperfeições e dar acabamento a maquiagem.",
+    "price": 9.99,
+    "image": "./assets/img/base/base1.jpeg",
+    "category": "makeup",
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "name": "Base Cream - Cor #2",
+    "description": "Cobrir imperfeições e dar acabamento a maquiagem.",
+    "price": 9.99,
+    "image": "./assets/img/base/base2.jpeg",
+    "category": "makeup",
+    "inStock": true
+  },  
+  {
+    "id": 9,
+    "name": "Base Cream - Cor #3",
+    "description": "Cobrir imperfeições e dar acabamento a maquiagem.",
+    "price": 9.99,
+    "image": "./assets/img/base/base3.jpeg",
+    "category": "makeup",
+    "inStock": true
+  },
+  {
+    "id": 10,
+    "name": "Base Cream - Cor #4",
+    "description": "Cobrir imperfeições e dar acabamento a maquiagem.",
+    "price": 9.99,
+    "image": "./assets/img/base/base4.jpeg",
+    "category": "makeup",
+    "inStock": true
+  },
+  {
+    "id": 11,
+    "name": "Base Julystar - Cor #1",
+    "description": "Base pequeno porte para levar na bolsa, possui acabamento natural.",
+    "price": 7.99,
+    "image": "./assets/img/base/base5.jpeg",
+    "category": "makeup",
+    "inStock": true
+  },
+  {
+    "id": 12,
+    "name": "Base Julystar - Cor #2",
+    "description": "Base pequeno porte para levar na bolsa, possui acabamento natural.",
+    "price": 7.99,
+    "image": "./assets/img/base/base6.jpeg",
+    "category": "makeup",
+    "inStock": true
+  },
+  {
+    "id": 13,
+    "name": "Base Julystar - Cor #3",
+    "description": "Base pequeno porte para levar na bolsa, possui acabamento natural.",
+    "price": 7.99,
+    "image": "./assets/img/base/base7.jpeg",
+    "category": "makeup",
+    "inStock": true
+  },
+  {
+    "id": 14,
+    "name": "Base Julystar - Cor #4",
+    "description": "Base pequeno porte para levar na bolsa, possui acabamento natural.",
+    "price": 7.99,
+    "image": "./assets/img/base/base8.jpeg",
+    "category": "makeup",
+    "inStock": true
+  },
+  {
+    "id": 15,
+    "name": "Esfoliante Melão",
+    "description": "Ajudar você a ter uma pele mais jovem.",
+    "price": 6.99,
+    "image": "./assets/img/esfoliante/melao.jpg",
+    "category": "skincare",
+    "inStock": false
+  },
+  {
+    "id": 16,
+    "name": "Esfoliante Abacate",
+    "description": "Ajudar você a ter uma pele mais jovem.",
+    "price": 6.99,
+    "image": "./assets/img/esfoliante/abacate.webp",
+    "category": "skincare",
+    "inStock": true
+  },
+  {
+    "id": 17,
+    "name": "Kit Pincel #2",
+    "description": "Esfumar e depositar sua sombra nos olhos.",
+    "price": 9.99,
+    "image": "./assets/img/pincel/pincel2.jpeg",
+    "category": "pincel",
+    "inStock": true
+  },
+  {
+    "id": 18,
+    "name": "Gel tint",
+    "description": "Textura leve, efeito natural com hidratação labial.",
+    "price": 6.99,
+    "image": "./assets/img/gel_tint/tint.jpg",
+    "category": "makeup",
+    "inStock": true
+  },
+  {
+    "id": 19,
+    "name": "Par de cílios",
+    "description": "Evidenciar o olhar.",
+    "price": 4.99,
+    "image": "./assets/img/cilios/cilios.jpeg",
+    "category": "makeup",
+    "inStock": true
+  },
+  {
+    "id": 20,
+    "name": "Paleta de Sombra #1",
+    "description": "Cores pigmentadas.",
+    "price": 6.99,
+    "image": "./assets/img/paleta/paleta_verde.jpeg",
+    "category": "makeup",
+    "inStock": true
+  },  
+  {
+    "id": 21,
+    "name": "Blush Cremoso Estilo Sheglam #1",
+    "description": "Evidenciar e corar sua maquiagem.",
+    "price": 9.99,
+    "image": "./assets/img/blush/blush1.jpeg",
+    "category": "makeup",
+    "inStock": true
+  },
+  {
+    "id": 22,
+    "name": "Blush Cremoso Estilo Sheglam #2",
+    "description": "Evidenciar e corar sua maquiagem.",
+    "price": 9.99,
+    "image": "./assets/img/blush/blush2.jpeg",
+    "category": "makeup",
+    "inStock": true
+  },
+  {
+    "id": 23,
+    "name": "Blush Cremoso Estilo Sheglam #3",
+    "description": "Evidenciar e corar sua maquiagem.",
+    "price": 9.99,
+    "image": "./assets/img/blush/blush3.jpeg",
+    "category": "makeup",
+    "inStock": true
+  },
+  {
+    "id": 24,
+    "name": "Espelho",
+    "description": "Possui 2 lados e um dos lados possui zoom, material muito resistente.",
+    "price": 7.99,
+    "image": "./assets/img/espelho/espelho.jpeg",
+    "category": "makeup",
+    "inStock": true
+  },
+  {
+    "id": 25,
+    "name": "Delineador preto ( marca sortida )",
+    "description": "Evidenciar o olhar com uma ótima pigmentação",
+    "price": 5.99,
+    "image": "./assets/img/delineador/delineador.jpeg",
+    "category": "makeup",
+    "inStock": true
+  },
+  {
+    "id": 26,
+    "name": "Escova Facial",
+    "description": "Auxilia na limpeza da pele.",
+    "price": 7.99,
+    "image": "./assets/img/escova/escova.jpeg",
+    "category": "skincare",
+    "inStock": true
+  },
+  {
+    "id": 27,
+    "name": "Pinças de sobrancelha profissional",
+    "description": "Perfeita para limpar o contorno da sobrancelha e retirar os pelos em excesso.",
+    "price": 3.50,
+    "image": "./assets/img/pinça/pinça.jpeg",
+    "category": "acc",
+    "inStock": true
+  },
+  {
+    "id": 28,
+    "name": "Esponjas de maquiagem",
+    "description": "Auxilia no acabamento da maquiagem.",
+    "price": 3.50,
+    "image": "./assets/img/esponja/esponja.jpeg",
+    "category": "makeup",
+    "inStock": true
   }
 ]
