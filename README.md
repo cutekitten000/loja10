@@ -1,1 +1,1 @@
-# loja_teste2
+# Loja de Maquiagem e Cosméticos
