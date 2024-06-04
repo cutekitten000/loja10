@@ -231,7 +231,7 @@
     "price": 7.99,
     "image": "./assets/img/escova/escova.jpeg",
     "category": "skincare",
-    "inStock": true
+    "inStock": false
   },
   {
     "id": 27,
@@ -240,7 +240,7 @@
     "price": 3.50,
     "image": "./assets/img/pinça/pinça.jpeg",
     "category": "extra",
-    "inStock": true
+    "inStock": false
   },
   {
     "id": 28,
@@ -249,7 +249,7 @@
     "price": 3.50,
     "image": "./assets/img/esponja/esponja.jpeg",
     "category": "makeup",
-    "inStock": true
+    "inStock": false
   },
   {
     "id": 29,
