@@ -213,7 +213,7 @@
     "price": 7.99,
     "image": "./assets/img/espelho/espelho.jpeg",
     "category": "makeup",
-    "inStock": true
+    "inStock": false
   },
   {
     "id": 25,
