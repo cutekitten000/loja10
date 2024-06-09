@@ -240,7 +240,7 @@
     "price": 3.50,
     "image": "./assets/img/pinça/pinça.jpeg",
     "category": "extra",
-    "inStock": false
+    "inStock": true
   },
   {
     "id": 28,
