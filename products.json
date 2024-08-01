@@ -268,5 +268,50 @@
     "image": "./assets/img/faixa/faixa.jpeg",
     "category": "extra",
     "inStock": false
+  },
+  {
+    "id": 31,
+    "name": "Máscara de Babosa",
+    "description": "Mascara fácil de babosa com efeito refrescante e limpeza facial.",
+    "price": 5.99,
+    "image": "./assets/img/mask/mask_babosa.jpeg",
+    "category": "skincare",
+    "inStock": true
+  },
+  {
+    "id": 32,
+    "name": "Máscara de Colágeno",
+    "description": "Mascara fácil de colágeno com efeito refrescante que ajuda na elasticidade da pele.",
+    "price": 5.99,
+    "image": "./assets/img/mask/mask_colageno.jpeg",
+    "category": "skincare",
+    "inStock": true
+  },
+  {
+    "id": 33,
+    "name": "Máscara de Abacate",
+    "description": "Mascara fácil de abacate com efeito refrescante e limpeza facial.",
+    "price": 5.99,
+    "image": "./assets/img/mask/mask_abacate.jpeg",
+    "category": "skincare",
+    "inStock": true
+  },
+  {
+    "id": 34,
+    "name": "Óleo corporal absoluto",
+    "description": "Cheirinho gostoso, ótima hidratação",
+    "price": 6.99,
+    "image": "./assets/img/oleo/oleo.jpeg",
+    "category": "skincare",
+    "inStock": true
+  },
+  {
+    "id": 35,
+    "name": "Hidratante de mãos absoluto",
+    "description": "Produto com ótimo rendimento e com boa Hidratação",
+    "price": 6.99,
+    "image": "./assets/img/hidratante/hidratante.jpeg",
+    "category": "skincare",
+    "inStock": true
   }
 ]
